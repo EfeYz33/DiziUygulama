@@ -20,6 +20,13 @@ namespace DiziUygulama
                 a[i] = sayi;               
                 Console.WriteLine(a[i]);
             }
+             a[i] = sayi;
+                t = t + a[i];
+                Console.WriteLine(sayi);
+            }
+            ort = t / a.Length;
+            Console.WriteLine ("sayıların toplamı=" + t);
+            Console.WriteLine ("sayıların oratalaması=" + ort);
             
             Console.ReadKey();
         }
